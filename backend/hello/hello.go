@@ -11,7 +11,7 @@ import (
 
 // ==================================================================
 
-// This is a simple REST API that responds with a personalized greeting.
+// World This is a simple REST API that responds with a personalized greeting.
 // To call it, run in your terminal:
 //
 //     curl http://localhost:4000/hello/World
