@@ -21,6 +21,8 @@
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 
+/frontend/src/tailwind.output.css
+
 /backend/.encore
 
 .idea

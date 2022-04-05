@@ -1,7 +1,18 @@
 module.exports = {
-  content: ["./src/**/*.{css,js,jsx,ts,tsx}"],
+  content: [
+      "./public/index.html",
+      "./src/**/*.{html,js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'lobster': ['Lobster','serif'],
+      },
+      colors: {
+        'oceanBlue':  '#3f9bb6',
+        'background': '#394551',
+      }
+    },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),],
 }
